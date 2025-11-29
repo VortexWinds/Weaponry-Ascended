@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[53.0.0,)"
+license="MIT"
+issueTrackerURL="https://github.com/VortexWinds/Weaponry-Ascended/issues"
+
+[[mods]]
+modId="weaponryascended"
+version="1.0.0"
+displayName="Weaponry Ascended"
+logoFile="weaponryascended_logo.png"
+credits="Created by VortexWinds with help from MiniMax Agent"
+authors="VortexWinds"
+description='''
+Weaponry Ascended is a comprehensive Minecraft mod that introduces new varieties of weapons and customizable tools to enhance your Minecraft experience.
+
+Features:
+- New weapon varieties beyond standard Minecraft tools
+- Customizable tool system where each piece can be modified with different items
+- Unique traits based on item combinations used in construction
+- Enhanced combat and crafting mechanics
+
+Perfect for players who want more depth in weapon crafting and customization!
+'''
+
+[[dependencies.weaponryascended]]
+modId="neoforge"
+mandatory=true
+versionRange="[53.0.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.weaponryascended]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
