@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "category": "equipment", "key": {"#": {"item": "minecraft:stick"}, "X": {"item": "minecraft:iron_ingot"}}, "pattern": ["X", "X", "#"], "result": {"item": "weaponryascended:great_sword", "count": 1}}
