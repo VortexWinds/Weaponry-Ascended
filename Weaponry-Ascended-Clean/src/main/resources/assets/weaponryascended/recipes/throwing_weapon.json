@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" F", " S"], "key": {"F": {"item": "minecraft:flint"}, "S": {"item": "minecraft:stick"}}, "result": {"item": "weaponryascended:throwing_weapon", "count": 4}}

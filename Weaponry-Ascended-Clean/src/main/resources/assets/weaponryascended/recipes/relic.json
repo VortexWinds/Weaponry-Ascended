@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["GNG", "GQG", "GNG"], "key": {"G": {"item": "minecraft:gold_ingot"}, "N": {"item": "minecraft:nether_star"}, "Q": {"item": "minecraft:quartz"}}, "result": {"item": "weaponryascended:relic", "count": 1}}

@@ -1,0 +1,25 @@
+rootProject.name = "weaponryascended"
+
+include 'common', 'fabric', 'neoforge'
+
+architectury {
+    projectSetup 'common'
+}
+
+jar {
+    def project = ":common"
+    from("${project.projectDir}/src/main/resources") {
+        rename { "${it}_common"}
+    }
+}
+
+def commonData = file("${rootProject.projectDir}/src/generated/resources/")
+if (!commonData.exists()) {
+    tasks.register('generateResources', Jar) {
+        dependsOn ':fabric:jar'
+        dependsOn ':neoforge:jar'
+        from("${project(':common').projectDir}/src/main/resources") {
+            rename { "${it}_common"}
+        }
+    }
+}
